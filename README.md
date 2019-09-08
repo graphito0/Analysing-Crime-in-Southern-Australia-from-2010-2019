@@ -6,15 +6,7 @@
 
 ## Overview
 
-|-------------|       |-----------|         |------------|            |-----------------------------|           |---------|
-|  Data Frame | <---  | Spark SQL |  <----- |    Spark   | <------->  | Spark - MongoDB - Connector | <-------> | MongoDB |
-|-------------|       |-----------|         |------------|            |-----------------------------|           |---------|
-       |
-       |
-       V
-|--------------|
-| Visualisaton |
-|--------------|
+![diagram](https://user-images.githubusercontent.com/30866240/64483794-3cbede80-d24c-11e9-8e20-6ddfa12890f4.PNG)
 
 1. Spark has the ability for distributed data processing, in the above schematic diagram it acts as a core engine function.
 2. Spark SQL is Saprk's module for working with structured data.
