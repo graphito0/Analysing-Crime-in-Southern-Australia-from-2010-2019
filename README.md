@@ -16,13 +16,13 @@
 ## Metadata
    - Crime_statistics is in CSV format with approx 700k rows.
    - The file has fields,
-   1. Reported Date 
-   2. Suburb - Incident 
-   3. Postcode
-   4. Offence Level 1 Description
-   5. Offence Level 2 Description
-   6. Offence Level 3 Description
-   7. Offence Count
+      1. Reported Date 
+      2. Suburb - Incident 
+      3. Postcode
+      4. Offence Level 1 Description
+      5. Offence Level 2 Description
+      6. Offence Level 3 Description
+      7. Offence Count
    - All the fields are in string format except Offence Count which is integer
    
 
@@ -33,10 +33,10 @@
   - Installation file provides easy steps on installing a virtual environment, jupyter notebook and other dependencies.
   
   2. Processing
-    2.1 First we will create Spark Context which serves as a primary entry point and Spark session to define configurations for                 connecting mongoDb.
-    2.2 We then read the data as a spark defined dataframe and then store it to MongoDB.
-    2.3 After storing, the dataframe is again accessed through MongoDB and queries are executed using Spark SQL functions.
-    2.4 The results are then visulaised through matplotlib.
+      2.1 First we will create Spark Context which serves as a primary entry point and Spark session to define configurations for                 connecting mongoDb.
+      2.2 We then read the data as a spark defined dataframe and then store it to MongoDB.
+      2.3 After storing, the dataframe is again accessed through MongoDB and queries are executed using Spark SQL functions.
+      2.4 The results are then visulaised through matplotlib.
     
 ## Files
   
