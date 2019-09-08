@@ -28,15 +28,15 @@
 
 ## General Steps
 
-  1. Installation 
+  **1. Installation** 
   - MongoDB and Apache Saprk, previous repository https://github.com/graphito0/Big_Data_Processing/ has steps for installing both of         them.
   - Installation file provides easy steps on installing a virtual environment, jupyter notebook and other dependencies.
   
-  2. Processing
-      2.1 First we will create Spark Context which serves as a primary entry point and Spark session to define configurations for                 connecting mongoDb.
-      2.2 We then read the data as a spark defined dataframe and then store it to MongoDB.
-      2.3 After storing, the dataframe is again accessed through MongoDB and queries are executed using Spark SQL functions.
-      2.4 The results are then visulaised through matplotlib.
+  **2. Processing**
+   - First we will create Spark Context which serves as a primary entry point and Spark session to define configurations for                 connecting mongoDb.
+   - We then read the data as a spark defined dataframe and then store it to MongoDB.
+   - After storing, the dataframe is again accessed through MongoDB and queries are executed using Spark SQL functions.
+   - The results are then visulaised through matplotlib.
     
 ## Files
   
